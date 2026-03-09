@@ -4,7 +4,7 @@
 
 ## 线上预览
 
-[点这里查看](https://github.yanhaixiang.com/resume)
+[点这里查看](https://cfy1126.github.io/resume/)
 
 ## 本地运行
 
