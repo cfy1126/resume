@@ -9,19 +9,27 @@
     </div>
 
     <div class="contact">
-      <h4>个人链接</h4>
+      <h4>个人基本信息</h4>
       <hr>
-      <div class="blogs">
-        个人主页: <strong><a :href="website" target="_blank">{{ website }}</a>（很酷的个人页）</strong>
-      </div>
-      <div class="links">
-        Github: <strong><a :href="github" target="_blank">{{ github }}</a>（3.5k+ Stars）</strong>
-      </div>
-      <div class="links">
-        知乎: <strong><a :href="zhihu" target="_blank">{{ zhihu }}</a>（1.6k+ 关注）</strong>
-      </div>
-      <div class="links">
-        Medium: <strong><a :href="medium" target="_blank">{{ medium }}</a>（20+ 英文博客）</strong>
+      <div class="info-grid">
+        <div class="info-item">
+          主页: <strong><a :href="'https://' + website" target="_blank">{{ website }}</a></strong>
+        </div>
+        <div class="info-item">
+          政治面貌: <strong>{{ politicalStatus }}</strong>
+        </div>
+        <div class="info-item">
+          民族: <strong>{{ nation }}</strong>
+        </div>
+        <div class="info-item">
+          生日: <strong>{{ birthday }}</strong>
+        </div>
+        <div class="info-item">
+          籍贯: <strong>{{ nativePlace }}</strong>
+        </div>
+        <div class="info-item">
+          毕业时间: <strong>{{ graduationDate }}</strong>
+        </div>
       </div>
     </div>
 
@@ -78,9 +86,19 @@ export default {
   p {
     text-align: center;
   }
+}
 
-  .links, .blogs {
-    //text-align: center;
+.contact {
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 8px 0;
+  }
+
+  .info-item {
+    display: flex;
+    align-items: center;
   }
 }
 

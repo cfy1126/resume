@@ -1,117 +1,84 @@
 export default {
-  name: '严海翔',
-  tel: '15602564425',
-  email: 'haixiang6123@gmail.com',
-  github: 'https://github.com/haixiangyan',
-  medium: 'https://medium.com/@haixiang6123',
-  website: 'https://yanhaixiang.com',
-  zhihu: 'https://www.zhihu.com/people/haixiangyan',
+  name: '曹发友',
+  tel: '18273358731',
+  email: 'liamcao1999@gmail.com',
+  website: 'github.com/cfy1126',
+  politicalStatus: '中共党员',
+  nation: '汉',
+  birthday: '1999.01.13',
+  nativePlace: '湖南株洲',
+  graduationDate: '2022.06',
   edus: [
     {
-      left: '加州大学尔湾分校',
-      right: '美国加州',
+      left: '南华大学船山学院',
+      right: '湖南衡阳',
       children: [
         {
-          left: '专业：Master of Networked System，GPA: 3.3 / 4.0',
-          right: '2018年9月 - 2020年3月'
-        },
-      ]
-    },
-    {
-      left: '东北大学',
-      right: '中国沈阳',
-      children: [
-        {
-          left: '专业：软件工程本科，GPA：3.6 / 5.0',
-          right: '2014年10月 - 2018年6月'
+          left: '专业：软件工程',
+          right: '2018年9月 - 2022年6月'
         },
       ]
     },
   ],
   skills: {
-    techs: ['React.js', 'Vue.js', 'HTML5', 'JavaScript', 'TypeScript', 'ES6', 'CSS3', 'SCSS', 'Node.js'],
-    tests: ['Cypress', 'Jest', 'React Testing Library'],
+    frameworks: ['Vue.js', 'React.js', 'TypeScript', 'Node.js', 'Express', 'PHP', '微信小程序', 'uni-app'],
+    libraries: ['Element UI', 'Ant Design', 'ECharts', 'Vue Router', 'Pinia'],
+    tools: ['Git', 'Webpack', 'SCSS', 'WordPress', 'Claude Code', 'Cursor', 'MySQL', 'MongoDB', 'HBuilderX'],
+    tests: ['Apifox', 'Docker', 'Vercel', 'GitHub Pages'],
   },
   works: [
     {
-      left: '腾讯@智能平台',
-      link: '',
-      right: '2021年11月 - 至今',
+      left: '湖南慧明谦数字能源技术有限公司@数字能源管理操作平台',
+      link: 'https://energy.hncbyun.com/iems/index',
+      right: '2025年5月 - 2026年2月',
       children: [
-        {left: '在腾讯智能平台负责智能客服系统开发，为中小企业客户提供智能客服机器人能力，利用技术提升企业客服沟通效率'},
-        {left: '使用 *React* + *Redux* + *Ant Design* 技术栈开发智能机器人平台、质检平台、客服H5、小程序以及企微侧边栏应用'},
-        {left: '使用 *qiankun* 重构老平台，一方面团队能持续用新技术更新和重构，一方面保证团队随时可以接入新需求，实现项目增量更新'},
-        {left: '使用 *qiankun* 对接和融合多方平台，能够让单一客服机器人平台接入数智人平台、新行业平台，大大增强老项目的可扩展能力'},
-        {left: '帮助项目构建一条完备的流水线，实现多环境发布、环境隔离、项目回滚、质量红线和代码质量告警，同时接入页面告警以及埋点上报，从而加强项目工程化建设'},
+        {left: '开发数字能源管理操作平台（储能、光伏、充电桩、微电网、虚拟电厂相关页面）'},
+        {left: '使用 *Vue3* + *Element Plus* + *ECharts* 开发数据曲线分析模块，并且使用 *SVG* 绘制微电网 *SCADA* 图'},
+        {left: '使用 *autofit.js* 做可视化大屏开发，适配不同屏幕尺寸'},
+        {left: '使用 *vue-i18n* 做中英俄三语支持，提升国际化用户体验'},
+        {left: '使用 *html2pdf.js* 导出日报表、周报表、月报表等 PDF 文档，并使用 *xlsx* 导出 Excel 表格'},
+        {left: '源网荷储平台 *App* 开发：使用 *uni-app* + *Vue 2* + *uView UI* 开发跨平台应用，开发设备曲线分析页面'},
       ]
     },
     {
-      left: '腾讯@在线教育',
-      link: '',
-      right: '2020年7月 - 2021年11月',
+      left: '杭州海兴电力科技股份有限公司@售后技术支持平台',
+      link: 'https://support.livoltek.com/',
+      right: '2024年5月 - 2025年5月',
       children: [
-        {left: '在腾讯开心鼠部门负责微信社群运营系统开发，包含桌面PC端以及企业微信侧边栏应用，服务于 5000+ 运营老师，利用技术降低人力成本和提高运营效率'},
-        {left: '使用 *React* + *Redux* + *Ant Design* 技术栈开发企业微信侧边栏和业务管理后台，并参与前端中台开发，使用 *Nest.js* 开发企微转发服务以及前端所需公共服务'},
-        {left: '根据业务需要封装一套侧边栏开发 SDK 工具以及上手模板，并输出《侧边栏开发指南》，方便其它部门上手和接入'},
-        {left: '调研并深入了解 *single-spa* 和 *qiankun* 微前端框架，在企微侧边栏落地微前端技术，利用 *qiankun* 管理多个应用'},
-        {left: '在前端处设置缓存层，通过并行 *Promise*，以及 *Suspense + Lazy Component* 的方法优化网页加载速度'},
+        {left: '使用 *Vue 2* + *Express* + *SQLite* 开发技术支持平台，提供文档、视频、工单等功能'},
+        {left: '基于 *Element UI* + *SCSS* 开发首页、产品分类、内容管理等页面'},
+        {left: '设计 *RESTful API*（产品分类、附件管理、信息查询），使用 *Sequelize ORM* 数据建模，实现业务接口'},
       ]
     },
     {
-      left: '大疆创新（美国 Palo Alto）',
+      left: '映翰通嘉兴通信技术有限公司@WordPress 网站开发',
       link: '',
-      right: '2019年06月',
+      right: '2022年6月 - 2024年4月',
       children: [
-        {left: '负责开发 LAANC（Low-Altitude Authorization and Notification）无人机空中飞行范围控制系统，使用 *Vue.js* + *Vuex* + *Vue Router* 编写开发'},
-        {left: '使用开源地图库 *MapBox*，并在业务场景中优化开源库中的圆型区域选取问题'}
+        {left: '开发企业门户和电商平台，基于 *WordPress* + *WooCommerce* 构建响应式站点'},
+        {left: '性能优化：通过 *LiteSpeed* 缓存、*WebP* 压缩、*Critical CSS* 优化，页面加载速度降至1.3s'},
+        {left: '*SEO* 优化：关键词排名提升35%，自然流量月增40%，代表作品：Livoltek全球站、SolarShop电商'},
       ]
     },
-    {
-      left: 'Data Brix（美国 Irvine）',
-      link: '',
-      right: '2019年04月',
-      children: [
-        {left: '使用 *React.js* + *Redux* + *Ant Design* 单独开发一套 OJ（Online Judge）系统，负责网页搭建以及管理页面开发'},
-      ]
-    },
-
   ],
   projects: [
     {
-      left: '知识输出',
-      right: '2020年 - 至今',
+      left: '个人简历展示系统',
+      link: 'https://github.com/cfy1126/resume',
+      right: '2025年11月',
       children: [
-        {left: '《造轮子文章系列》（Star: 1.5k+）', link: 'https://github.yanhaixiang.com/make-wheels/'},
-        {left: '《Jest 实践指南》（Star: 500+）', link: 'https://github.yanhaixiang.com/jest-tutorial/'},
-        {left: '《Linter 上手指南》（Star: 150+）', link: 'https://github.yanhaixiang.com/linter-tutorial/'},
-        {left: '《企业微信侧边栏开发指南》&开发模板', link: 'https://github.com/wecom-sidebar'},
+        {left: '基于 *Vue.js* + *SCSS* 构建的个人简历展示系统'},
+        {left: '使用 *Flexbox* 实现响应式布局，通过 *info.js* 统一管理简历数据，支持文本渲染和外部链接跳转'},
+        {left: '可复用的 *List* 组件处理不同类型的列表展示，配置 *GitHub Pages* 一键部署'},
       ]
     },
     {
-      left: '守望先锋 UI 库（Star: 420+）',
-      link: 'https://github.yanhaixiang.com/overwatch-ui-doc/#/',
-      right: '2019年02月',
+      left: '仿亚马逊商城平台',
+      link: 'supersimple.dev/projects/ecommerce',
+      right: '2024年10月',
       children: [
-        {left: '本项目是基于 *Vue.js* 并模仿守望先锋 UI 开发的一套 UI 组件库'},
-        {left: '使用 CSS 预处理器 *Sass* 定制组件的样式，并定义不同 Mixins 来封装样式以提高样式的重用度'},
-        {left: '使用 *Chai，Sinon，Mocha* 对组件进行单元测试，并结合 *Travis CI，Karma* 进行自动化测试'},
-      ]
-    },
-    {
-      left: '代码高亮插件（Star: 110+, 用户量：1k+）',
-      link: 'https://github.com/haixiangyan/codeblock-beautifier',
-      right: '2019年01月',
-      children: [
-        {left: '一个用于高亮博客文章代码块的 *Chrome* 插件，支持 Medium，知乎，简书，StackOverflow 等大部分博客网站'},
-        {left: '通过 *Highlight.js* 自动检测代码所使用的语言，支持 80 多种代码主题以及 20 多种编程语言'},
-      ]
-    },
-    {
-      left: '吉他谱编辑器（Star: 100+）',
-      link: 'https://github.yanhaixiang.com/guitar-tabs-editor/#/',
-      right: '2018年05月',
-      children: [
-        {left: '基于 *React.js* 开发的吉他谱在线编辑器，吉他谱作者可以通过编写类 Markdown 格式的文本来创作吉他谱'},
+        {left: '使用 *Vue.js* + *Express* + *SQLite* + *Sequelize ORM* 构建全栈电商平台，实现商品管理、购物车、结算、订单管理完整流程'},
+        {left: '使用 *Pinia* 实现全局状态管理，开发商品动态加载、购物车数据持久化、订单清空等核心功能'},
       ]
     },
   ],

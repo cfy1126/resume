@@ -1,10 +1,16 @@
 <template>
     <ul>
         <li>
-            <strong>技术：</strong>{{skills.techs.join(', ')}}
+            <strong>框架：</strong>{{skills.frameworks.join(', ')}}
         </li>
         <li>
-            <strong>测试 & 部署：</strong>{{skills.tests.join(', ')}}
+            <strong>库：</strong>{{skills.libraries.join(', ')}}
+        </li>
+        <li>
+            <strong>工具：</strong>{{skills.tools.join(', ')}}
+        </li>
+        <li>
+            <strong>测试&部署：</strong>{{skills.tests.join(', ')}}
         </li>
     </ul>
 </template>
@@ -22,5 +28,13 @@
 </script>
 
 <style scoped lang="scss">
+ul {
+    list-style: none;
+    padding: 0;
 
+    li {
+        padding: 4px 0;
+        line-height: 1.6;
+    }
+}
 </style>
