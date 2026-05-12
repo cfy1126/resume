@@ -21,12 +21,23 @@ export default {
     },
   ],
   skills: {
-    frameworks: ['Vue.js', 'React.js', 'TypeScript', 'Node.js', 'Express', 'PHP', '微信小程序', 'uni-app'],
-    libraries: ['Element UI', 'Ant Design', 'ECharts', 'Vue Router', 'Pinia'],
-    tools: ['Git', 'Webpack', 'SCSS', 'WordPress', 'Claude Code', 'Cursor', 'MySQL', 'MongoDB', 'HBuilderX'],
-    tests: ['Apifox', 'Docker', 'Vercel', 'GitHub Pages'],
+    frameworks: ['React.js', 'TypeScript', 'Vue.js', 'Node.js', 'Express', 'PHP', '微信小程序', 'uni-app'],
+    libraries: ['Ant Design', 'Element UI', 'Element Plus', 'ECharts', 'Vue Router', 'Pinia'],
+    tools: ['Git', 'Vite', 'Webpack', 'SCSS', 'WordPress', 'Claude Code', 'Cursor', 'MySQL', 'MongoDB', 'Docker'],
+    tests: ['Apifox', 'Vercel', 'GitHub Pages', 'Cloudflare Workers'],
   },
   works: [
+    {
+      left: '湖南智轩信息科技有限公司@智慧水务 / 低代码开发平台',
+      link: 'https://github.com/cfy1126/web-vue3',
+      right: '2026年2月 - 至今',
+      children: [
+        {left: '参与企业级低代码平台前端开发，支持通过可视化配置、表单设计、流程配置和数据看板搭建业务应用'},
+        {left: '负责管理后台、业务配置、数据报表、大屏页面等模块开发，配合后端完成接口联调和页面状态处理'},
+        {left: '处理 *pnpm*、*Vite*、环境变量、API 代理、WebSocket 地址、报表服务路径等工程配置'},
+        {left: '参与测试/生产环境构建与部署验证，支持 *Nginx* / *TongHttpServer* 等运行环境'},
+      ]
+    },
     {
       left: '湖南慧明谦数字能源技术有限公司@数字能源管理操作平台',
       link: 'https://energy.hncbyun.com/iems/index',
@@ -62,6 +73,54 @@ export default {
     },
   ],
   projects: [
+    {
+      left: '智慧水务 / 低代码开发平台前端',
+      link: 'https://github.com/cfy1126/web-vue3',
+      right: '2026年',
+      children: [
+        {left: '企业级低代码平台前端项目，支持通过可视化页面、拖拉拽配置、表单设计和数据看板搭建业务应用'},
+        {left: '涉及管理后台、数据报表、大屏应用、文件预览、地图 AK、WebSocket 和多后端服务环境配置'},
+        {left: '项目使用 *pnpm* + *Vite* 构建，支持 *Nginx* / *TongHttpServer* 测试和生产环境部署'},
+      ]
+    },
+    {
+      left: 'CloudflareSub 轻量化优选 IP 订阅器',
+      link: 'https://github.com/cfy1126/cloudflaresub',
+      right: '2026年',
+      children: [
+        {left: '基于 *Cloudflare Workers* 的工具类项目，支持节点解析、优选地址处理、短链生成和订阅导出'},
+        {left: '支持 Raw、Clash、Surge 多种订阅格式，使用 Workers KV 存储生成结果并设置 TTL'},
+        {left: '提供前端表单页面，支持粘贴节点、生成订阅链接、一键复制和二维码展示'},
+      ]
+    },
+    {
+      left: 'Vue Router 路由守卫演示项目',
+      link: 'https://github.com/cfy1126/RouteWarden',
+      right: '2026年',
+      children: [
+        {left: '使用 *Vue 3* + *Vue Router 4* + *Vite* 构建路由守卫学习与演示项目'},
+        {left: '覆盖全局前置守卫、路由独享守卫、组件内守卫、登录拦截、权限控制和离开确认等场景'},
+        {left: '项目同时整理了路由守卫执行顺序和面试要点，便于复习和知识沉淀'},
+      ]
+    },
+    {
+      left: 'PiniaCraft 状态管理练习项目',
+      link: 'https://github.com/cfy1126/PiniaCraft',
+      right: '2026年',
+      children: [
+        {left: '基于 *Vue 3* + *Pinia* + *Vite* 的状态管理实践项目'},
+        {left: '使用 *pinia-plugin-persistedstate* 做状态持久化，练习模块化状态组织和页面状态同步'},
+      ]
+    },
+    {
+      left: 'Tickly Todo 任务管理练习项目',
+      link: 'https://github.com/cfy1126/tickly-todo',
+      right: '2026年',
+      children: [
+        {left: '基于 *Vue 3* + *Element Plus* + *Vite* 的任务管理页面练习项目'},
+        {left: '练习列表展示、任务操作、组件拆分、代码格式化和 ESLint 规范处理'},
+      ]
+    },
     {
       left: '个人简历展示系统',
       link: 'https://github.com/cfy1126/resume',
